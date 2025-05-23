@@ -1,4 +1,4 @@
-.form {
+.form-container {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -6,13 +6,14 @@
 }
 
 .form input[type='text'] {
+  max-width: 300px;
   padding: 10px 15px;
   font-size: 1rem;
   border: 2px solid #ccc;
   border-radius: 8px 0 0 8px;
   outline: none;
-  width: 300px;
   transition: border-color 0.3s;
+  box-sizing: border-box;
 }
 
 .form input[type='text']:focus {
@@ -20,14 +21,17 @@
 }
 
 .form button {
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-size: 1rem;
   background-color: #4e75ff;
   color: white;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   transition: background-color 0.3s;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-left: -5px;
 }
 
 .form button:hover {
@@ -45,16 +49,29 @@
     padding: 0 10px;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .form input[type='text'] {
-    width: 90%;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    padding: 10px 15px;
+    border: 2px solid #ccc;
     border-radius: 8px;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
   }
 
   .form button {
-    width: 90%;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    padding: 10px 15px;
+    border: 2px solid transparent;
     border-radius: 8px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 0px;
   }
 }

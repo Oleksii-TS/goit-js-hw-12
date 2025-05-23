@@ -31,19 +31,19 @@ export function createGallery(images) {
         <div class="info">
           <div class="image-info">
             <div class="info-item">
-              <p class="info-title"><b>❤️ likes:</b></p>
+              <p class="info-title"><b>Likes:</b></p>
               <p class="info-value">${likes}</p>
             </div>
             <div class="info-item">
-              <p class="info-title"><b>👁️ views:</b></p>
+              <p class="info-title"><b>Views:</b></p>
               <p class="info-value">${views}</p>
             </div>
             <div class="info-item">
-              <p class="info-title"><b>💬 comments:</b></p>
+              <p class="info-title"><b>Comments:</b></p>
               <p class="info-value">${comments}</p>
             </div>
             <div class="info-item">
-              <p class="info-title"><b>⬇️ downloads:</b></p>
+              <p class="info-title"><b>Downloads:</b></p>
               <p class="info-value">${downloads}</p>
             </div>
           </div>

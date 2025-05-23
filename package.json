@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-11/",
+    "build": "vite build --base=/goit-js-hw-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -21,6 +21,7 @@
     "css-loader": "^7.1.2",
     "izitoast": "^1.4.0",
     "simplelightbox": "^2.14.3",
+    "tui-pagination": "^3.4.1",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
