@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-js-hw-12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-Bc81j50v.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-B-8kIEOF.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-BMDKPTJ4.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form class="form">
+          <label>
+            <input
+              type="text"
+              name="search-text"
+              placeholder="Search images..."
+            />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <ul class="gallery"></ul>
+      <div
+        class="load-more-container"
+        style="text-align: center; margin-top: 20px"
+      >
+        <button class="load-more-btn" hidden>Load more</button>
+        <div class="loader-wrapper" id="loader" hidden>
+          <span class="loader"></span>
+        </div>
+        <div class="loader-wrapper" id="loader" hidden>
+          <span class="loader"></span>
+        </div>
+        <div id="pagination" class="tui-pagination"></div>
+      </div>
+    </div>
+  </body>
+</html>
